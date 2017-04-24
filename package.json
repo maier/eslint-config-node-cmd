@@ -2,7 +2,10 @@
   "name": "@maier/eslint-config-node-cmd",
   "version": "0.1.0",
   "description": "NodeJS command line tool eslint shared config",
-  "main": "index.js",
+  "private": false,
+  "files": [
+      "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
